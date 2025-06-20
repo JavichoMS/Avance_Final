@@ -1,13 +1,13 @@
 stages:
-- build 
-- test
+  - build
+  - test
 
 build:
-stage: build
-script: 
--echo "Construyendo el Proyectoo...""
-!
+  stage: build
+  script:
+    - echo "Construyendo el Proyecto..."
+
 test:
-stage: test
-script: 
--echoo "Testeando el Proyecto ...."
+  stage: test
+  script:
+    - echo "Testeando el Proyecto..."
